@@ -7,6 +7,7 @@ export interface CounterButtonClassProps {
 
 interface CounterButtonClassState {
   count: number;
+  aboolos: boolean;
 }
 
 export default class CounterButtonClass extends PureComponent<
@@ -15,11 +16,11 @@ export default class CounterButtonClass extends PureComponent<
 > {
   constructor(props: Readonly<CounterButtonClassProps>) {
     super(props);
-    this.state = { count: props.startCount ?? 0 };
+    this.state = { count: props.startCount ?? 0, aboolos: false };
   }
 
   handleClick = () => {
-    this.setState(({ count }) => ({ count: count + 1 }));
+    this.setState((oldState) => ({ aboolos: !oldState.aboolos, count: 10 }));
   };
 
   render() {

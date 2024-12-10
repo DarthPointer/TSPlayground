@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ImageCutter": {
+      "commandName": "Project",
+      "commandLineArgs": "\"E:\\Repos\\TSPlayground\\FactorioData\\SourceData\" \"E:\\Repos\\TSPlayground\\FactorioData\\ConvertedData\""
+    }
+  }
+}
