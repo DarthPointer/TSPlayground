@@ -1,3 +1,4 @@
+import { FucktorioLocalisedString } from "./FucktorioLocalisedString";
 import { IconData } from "./IconData";
 import { LayersData, PictureData } from "./PictureData";
 import { SoundData } from "./SoundData";
@@ -31,9 +32,9 @@ export type ItemNode = {
     spoil_ticks?: number;
     spoil_result?: string;
     spoil_level?: number;
-    spoil_to_trigger_result?: any;
+    spoil_to_trigger_result?: unknown;
 
-    localised_name?: (string | string[])[];
+    localised_name?: FucktorioLocalisedString;
 
     subgroup?: string;
     order?: string;

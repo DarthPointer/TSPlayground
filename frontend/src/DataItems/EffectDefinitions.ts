@@ -1,7 +1,7 @@
 export enum Effect {
-    Consumption = "Consumption",
-    Speed = "Speed",
-    Pollution = "Pollution",
-    Productivity = "Productivity",
-    Quality = "Quality"
+    Consumption = "consumption",
+    Speed = "speed",
+    Pollution = "pollution",
+    Productivity = "productivity",
+    Quality = "quality"
 }

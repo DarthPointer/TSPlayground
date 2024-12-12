@@ -1,4 +1,4 @@
-import { RGBA } from "../Color";
+import { FucktorioColor } from "../Color";
 
 export type IconData = {
     icon: string;
@@ -6,5 +6,5 @@ export type IconData = {
     scale?: number;
     shift?: number[];
 
-    tint?: number[] | RGBA;
+    tint?: FucktorioColor;
 }
