@@ -4,4 +4,4 @@ export enum Effect {
     Pollution = "pollution",
     Productivity = "productivity",
     Quality = "quality"
-}
+};

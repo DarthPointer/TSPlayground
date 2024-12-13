@@ -58,10 +58,10 @@ export type RecipeNode = {
 
     factoriopedia_alternative?: string;
     hidden_in_factoriopedia?: boolean;
-}
+};
 
 export type RecipeIngredientData = {
-    type: string;
+    type: "item" | "fluid";
     name: string;
     amount: number;
 
@@ -69,10 +69,10 @@ export type RecipeIngredientData = {
 
     fluidbox_index?: number;
     fluidbox_multiplier?: number;
-}
+};
 
 export type RecipeResultData = {
-    type: string;
+    type: "item" | "fluid";
     name: string;
 
     amount: number;
@@ -89,4 +89,4 @@ export type RecipeResultData = {
     percent_spoiled?: number;
 
     show_details_in_recipe_tooltip?: boolean;
-}
+};

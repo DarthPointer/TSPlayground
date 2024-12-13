@@ -1,11 +1,11 @@
 export class ItemDefinition {
     public key: string;
     public stackSize: number;
-    public rocketCap: number;
+    public rocketMass?: number;
 
-    public constructor(key: string, stackSize: number, rocketCap: number) {
+    public constructor(key: string, stackSize: number, rocketMass: number | undefined = undefined) {
         this.key = key;
         this.stackSize = stackSize;
-        this.rocketCap = rocketCap;
+        this.rocketMass = rocketMass;
     }
 }

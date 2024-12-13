@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ImageCutter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb2377b75b45d05ae372c6f1ba50cdc65f8e60a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+440199602b8d7a3a7e539c6c0911fa25bf7d7d4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ImageCutter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ImageCutter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
